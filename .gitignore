@@ -1,4 +1,7 @@
 
 **/.DS_Store
-CodeScannerLib.xcodeproj/project.xcworkspace/xcuserdata/**
-CodeScannerLib.xcodeproj/project.xcworkspace/xcshareddata/**
+**/*.xcworkspace/xcuserdata/*
+**/*.xcworkspace/xcshareddata/*
+**/*.lock
+**/Pods/**
+**/*.xcodeproj/xcuserdata/*
