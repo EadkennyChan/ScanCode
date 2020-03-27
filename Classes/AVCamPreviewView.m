@@ -62,7 +62,9 @@
 
 - (void)setSession:(AVCaptureSession *)session
 {
-	[(AVCaptureVideoPreviewLayer *)[self layer] setSession:session];
+  AVCaptureVideoPreviewLayer *layer = (AVCaptureVideoPreviewLayer *)[self layer];
+  [layer setSession:session];
+  layer.videoGravity = AVLayerVideoGravityResizeAspectFill;
 }
 
 @end
